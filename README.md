@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://streamlit.io/)  
-[![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green)](https://github.com/facebookresearch/faiss) 
+[![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green)](https://github.com/facebookresearch/faiss)  
 [![Gemini](https://img.shields.io/badge/LLM-Gemini-blue)](https://ai.google.dev/gemini-api)  
 [![Ollama](https://img.shields.io/badge/LLM-Ollama-black)](https://ollama.ai)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
