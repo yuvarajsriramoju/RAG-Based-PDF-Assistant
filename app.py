@@ -5,14 +5,11 @@ from ingest import build_index
 from rag_deploy import rag_query
 
 load_dotenv()
-
-# ---------------- Page Config ----------------
 st.set_page_config(page_title="RAG PDF Assistant", page_icon="📚")
 
 st.title("📚 RAG-based Research Paper Assistant")
 st.caption("Upload PDFs, build a vector index, and ask questions grounded in your documents.")
 
-# ---------------- Step 1: Upload PDFs ----------------
 with st.expander("Step 1 — Upload PDFs"):
     uploaded = st.file_uploader(
         "Upload one or more PDFs",
@@ -42,7 +39,6 @@ with st.expander("Step 1 — Upload PDFs"):
 
 st.markdown("---")
 
-# ---------------- Step 2: Ask Question ----------------
 st.subheader("Step 2 — Ask a question")
 
 # Model selector
