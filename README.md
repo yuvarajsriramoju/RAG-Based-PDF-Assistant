@@ -9,6 +9,55 @@
 A **Retrieval-Augmented Generation (RAG)** chatbot that can answer questions from research papers and PDFs.  
 Runs **fully offline** using [Ollama](https://ollama.ai) with open-source models (Mistral, LLaMA, Phi).  
 
+🤔 What is RAG?
+
+Large Language Models (LLMs) like ChatGPT are powerful, but they suffer from:
+
+❌ Hallucination – making up facts when they don’t know the answer
+
+❌ Outdated knowledge – frozen at training time
+
+❌ No access to private data – can’t directly read your PDFs, manuals, or research papers
+
+Retrieval-Augmented Generation (RAG) solves this problem:
+
+Retrieve – Search for relevant passages from your own documents using embeddings & vector databases.
+
+Augment – Provide those passages as context to the LLM.
+
+Generate – The LLM answers the question grounded in the retrieved context.
+
+💡 In short: RAG makes LLMs more accurate, up-to-date, and customizable to your data.
+
+📖 Project Explanation
+
+This project is a PDF-based AI research assistant.
+You upload PDFs (e.g., research papers, policies, technical docs), and the chatbot:
+
+Splits PDFs into text chunks.
+
+Embeds them using SentenceTransformers (BAAI/bge-small-en-v1.5).
+
+Stores vectors in FAISS (fast similarity search).
+
+When you ask a question:
+
+The system retrieves the most relevant chunks.
+
+Sends them to a local LLM (Mistral, LLaMA, or Phi via Ollama).
+
+The LLM generates an answer grounded in the PDFs.
+
+We also built an evaluation pipeline that measures:
+
+🔍 Recall improvement compared to simple keyword search
+
+⏱️ Query latency (average ~1.2s per query with Mistral 7B)
+
+📊 Visual results with recall and latency comparison charts
+
+This makes the project not just a demo, but a measurable, benchmarked RAG system.
+
 ---
 
 ## ✨ Features  
