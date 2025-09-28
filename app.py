@@ -5,7 +5,7 @@ from ingest import build_index
 from rag_deploy import rag_query
 
 load_dotenv()
-st.set_page_config(page_title="RAG PDF Assistant", page_icon="📚")
+st.set_page_config(page_title="RAG PDF Assistant")
 
 st.title("RAG-based Research Paper Assistant - By Yuvaraj Sriramoju")
 st.caption("Upload PDFs, build a vector index, and ask questions grounded in your documents.")
@@ -44,7 +44,7 @@ st.subheader("Step 2 — Ask a question")
 # Model selector
 generator = st.selectbox(
     "Choose model for answering",
-    ["ollama", "gemini"],  # matches rag.py
+    ["Ollama (Only Runs on Local Machine)", "Gemini"],  # matches rag.py
     index=1                # default = gemini (better for cloud)
 )
 
