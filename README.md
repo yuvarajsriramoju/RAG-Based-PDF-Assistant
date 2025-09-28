@@ -185,7 +185,7 @@ Our Retrieval-Augmented Generation (RAG) pipeline significantly improves accurac
 
 ## 👤 Author  
 **Yuvaraj Sriramoju**  
-- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/yuvarajsriramoju/) Yuvaraj Sriramoju  
-- [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/yuvarajsriramoju) Yuvaraj Sriramoju  
-- [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?logo=firefox&logoColor=white&style=flat)](https://your-portfolio.com) Portfolio Website
+- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/yuvarajsriramoju/)   
+- [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/yuvarajsriramoju)   
+- [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?logo=firefox&logoColor=white&style=flat)](https://your-portfolio.com) 
 
