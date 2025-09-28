@@ -165,7 +165,7 @@ python ingest.py --pdfs "data/*.pdf" --out vector_store
 ```bash
 streamlit run app.py
 ```
-Access at: [http://localhost:8501](http://localhost:8501)
+Access at: [(https://rag-based-pdf-assistant.streamlit.app/)](http://localhost:8501](https://rag-based-pdf-assistant.streamlit.app/]
 
 ## 📊 Results  
 Our Retrieval-Augmented Generation (RAG) pipeline significantly improves accuracy compared to traditional keyword-based retrieval:
