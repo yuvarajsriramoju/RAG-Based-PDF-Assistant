@@ -194,6 +194,6 @@ Generates:
 
 ## 👤 Author  
 **Yuvaraj Sriramoju**  
- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvarajsriramoju/)  
- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuvarajsriramoju/)  
- [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> [Yuvaraj Sriramoju](https://www.linkedin.com/in/yuvarajsriramoju/)  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20"/> [yuvarajsriramoju](https://github.com/yuvarajsriramoju)  
+- 🌐 [Portfolio](https://your-portfolio.com)
