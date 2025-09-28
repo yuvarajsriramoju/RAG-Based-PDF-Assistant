@@ -10,7 +10,7 @@ load_dotenv()
 GENERATOR    = os.getenv("GENERATOR", "local_ollama").strip().lower()
 EMBED_MODEL  = (os.getenv("EMBED_MODEL", "BAAI/bge-small-en-v1.5").strip()
                 .strip('"').strip("'"))
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral:7b-instruct-q4_K_M").strip()
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral:3b-instruct-q4_K_M").strip()
 OLLAMA_HOST  = os.getenv("OLLAMA_HOST", "http://localhost:11434").strip()
 
 # Lazy singleton
