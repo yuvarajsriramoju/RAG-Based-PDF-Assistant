@@ -48,6 +48,33 @@ This makes the project not just a demo, but a **measurable, benchmarked RAG syst
 
 ---
 
+## 🧱 Architecture (Mermaid)
+
+> GitHub renders Mermaid automatically.
+
+```mermaid
+flowchart TD
+    subgraph Ingestion["Ingestion Pipeline"]
+      A[PDFs in /data] --> B[Text Extraction (PyPDF)]
+      B --> C[Chunking (RecursiveCharacterTextSplitter)]
+      C --> D[Embeddings (SentenceTransformers: BGE-small)]
+      D --> E[FAISS Index (vector_store)]
+    end
+
+    subgraph QueryFlow["Query Flow"]
+      U[User Question] --> Q[Embed Query]
+      Q --> R[FAISS Retrieve Top-K]
+      R --> CXT[Build Context (Top-K Chunks)]
+      CXT --> P[Prompt Builder]
+      P --> LLM[(Ollama LLM: Mistral/LLaMA/Phi)]
+      LLM --> ANS[Grounded Answer + Citations]
+    end
+
+    E -. used by .-> R
+    ANS --> UI[Streamlit UI]
+
+---
+
 ## ✨ Features  
 - 📄 Upload one or more PDFs and query them in natural language  
 - 🔍 Semantic search with **SentenceTransformers embeddings**  
