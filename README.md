@@ -72,6 +72,20 @@ flowchart TD
 
     E -.-> R
     ANS --> UI[Streamlit UI]
+
+sequenceDiagram
+    participant User
+    participant UI as Streamlit UI
+    participant FAISS as FAISS Index
+    participant Ollama as Ollama LLM
+
+    User->>UI: Ask Question
+    UI->>FAISS: Retrieve Top-K Chunks
+    FAISS-->>UI: Return Relevant Chunks
+    UI->>Ollama: Send Prompt + Context
+    Ollama-->>UI: Return Answer
+    UI-->>User: Display Grounded Answer
+
 ```
 
 ---
