@@ -178,6 +178,7 @@ Generates:
 ---
 
 ## 📊 Results  
+Our Retrieval-Augmented Generation (RAG) pipeline significantly improves accuracy compared to traditional keyword-based retrieval:
 - **35% higher recall** compared to keyword search  
 - **Average latency ~1.2s/query** (Mistral 7B on CPU/GPU hybrid)  
 
