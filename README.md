@@ -48,7 +48,7 @@ This makes the project not just a demo, but a **measurable, benchmarked RAG syst
 
 ---
 
-## 🧱 Architecture (Mermaid)
+## 🧱 Architecture
 
 > GitHub renders Mermaid automatically.
 
@@ -73,6 +73,10 @@ flowchart TD
     E -.-> R
     ANS --> UI[Streamlit UI]
 ```
+---
+
+## 🔄 Sequence Diagram 
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -183,6 +187,7 @@ Generates:
 
 ## 🔮 Future Improvements  
 - Add rerankers for improved context retrieval
+- Integrate Online LLMs like OpenAI, Gemini,Claude etc.,
 - Support multimodal PDFs (figures + text)
 - Make it availble for document formats other than PDFs like Word Doc etc...
 - Docker Compose for one-line deployment  
