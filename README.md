@@ -73,7 +73,7 @@ flowchart TD
     E -.-> R
     ANS --> UI[Streamlit UI]
 ```
-
+```mermaid
 sequenceDiagram
     participant User
     participant UI as Streamlit UI
@@ -86,6 +86,7 @@ sequenceDiagram
     UI->>Ollama: Send Prompt + Context
     Ollama-->>UI: Return Answer
     UI-->>User: Display Grounded Answer
+```
 
 ---
 
