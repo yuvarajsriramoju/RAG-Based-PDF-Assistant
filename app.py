@@ -43,7 +43,7 @@ st.subheader("Step 2 — Ask a question")
 
 # Model selector
 generator = st.selectbox(
-    "Choose model for answering",
+    "Choose LLMs for answering",
     ["Ollama (Only Runs on Local Machine)", "Gemini"],  # matches rag.py
     index=1                # default = gemini (better for cloud)
 )
