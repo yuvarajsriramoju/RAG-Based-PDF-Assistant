@@ -44,13 +44,11 @@ I have also built an **evaluation pipeline** that measures:
 - ⏱️ **Query latency** (average ~1.2s per query with Mistral 7B)  
 - 📊 Visual results with recall and latency comparison charts  
 
-This makes the project not just a demo, but a **measurable, benchmarked RAG system**.  
+This project is a **measurable, benchmarked RAG system**.  
 
 ---
 
 ## 🧱 Architecture
-
-> GitHub renders Mermaid automatically.
 
 ```mermaid
 flowchart TD
@@ -196,6 +194,6 @@ Generates:
 
 ## 👤 Author  
 **Yuvaraj Sriramoju**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvarajsriramoju/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuvarajsriramoju/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)  
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvarajsriramoju/)  
+ [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuvarajsriramoju/)  
+ [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)  
