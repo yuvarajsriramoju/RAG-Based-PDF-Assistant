@@ -195,5 +195,5 @@ Generates:
 ## 👤 Author  
 **Yuvaraj Sriramoju**  
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> [Yuvaraj Sriramoju](https://www.linkedin.com/in/yuvarajsriramoju/)  
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20"/> [yuvarajsriramoju](https://github.com/yuvarajsriramoju)  
+- <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)"/> [Yuvaraj Sriramoju](https://github.com/yuvarajsriramoju)  
 - 🌐 [Portfolio](https://your-portfolio.com)
