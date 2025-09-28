@@ -103,8 +103,9 @@ Generates:
 ---
 
 ## 🔮 Future Improvements  
-- Add rerankers for improved context retrieval  
-- Support multimodal PDFs (figures + text)  
+- Add rerankers for improved context retrieval
+- Support multimodal PDFs (figures + text)
+- Make it availble for document formats other than PDFs like Word Doc etc...
 - Docker Compose for one-line deployment  
 
 ---
