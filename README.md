@@ -2,7 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://streamlit.io/)  
-[![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green)](https://github.com/facebookresearch/faiss)  
+[![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green)](https://github.com/facebookresearch/faiss) 
+[![Gemini](https://img.shields.io/badge/LLM-Gemini-blue)](https://ai.google.dev/gemini-api)  
 [![Ollama](https://img.shields.io/badge/LLM-Ollama-black)](https://ollama.ai)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 
@@ -95,7 +96,7 @@ sequenceDiagram
 ## ✨ Features  
 - 📄 Upload one or more PDFs and query them in natural language  
 - 🔍 Semantic search with **SentenceTransformers embeddings**  
-- 🧠 Local LLM inference with **Ollama** (Mistral / LLaMA / Phi)  
+- 🧠 Local LLM inference with **Ollama** (Mistral / LLaMA / Phi) or Cloud LLM inference with **Gemini**
 - 📊 Evaluation framework with **QA datasets** to measure recall & latency  
 - ⚡ Runs fully offline (after models are pulled)  
 
@@ -104,7 +105,7 @@ sequenceDiagram
 ## 🛠️ Tech Stack  
 - **Vector DB:** FAISS  
 - **Embeddings:** BAAI/bge-small-en-v1.5 (SentenceTransformers)  
-- **LLM Inference:** Ollama (Mistral 7B / LLaMA 3B / Phi-3)  
+- **LLM Inference:** Ollama (Mistral 7B / LLaMA 3B / Phi-3)  / Gemini (gemini-2.5-flash)
 - **Frontend:** Streamlit  
 - **Backend:** Python  
 - **Deployment:** Docker-ready  
@@ -166,17 +167,6 @@ streamlit run app.py
 ```
 Access at: [http://localhost:8501](http://localhost:8501)
 
-### 7. Evaluate (optional)  
-```bash
-python eval_rag.py --qa qa.json --store_dir vector_store --top_k 5
-```
-Generates:
-- 📊 `benchmarks/results.csv`  
-- 📈 `benchmarks/recall_comparison.png`  
-- ⏱️ `benchmarks/latency_comparison.png`  
-
----
-
 ## 📊 Results  
 Our Retrieval-Augmented Generation (RAG) pipeline significantly improves accuracy compared to traditional keyword-based retrieval:
 - **35% higher recall** compared to keyword search  
@@ -186,7 +176,7 @@ Our Retrieval-Augmented Generation (RAG) pipeline significantly improves accurac
 
 ## 🔮 Future Improvements  
 - Add rerankers for improved context retrieval
-- Integrate Online LLMs like OpenAI, Gemini,Claude etc.,
+- Integrate Online LLMs like OpenAI, Claude etc.,
 - Support multimodal PDFs (figures + text)
 - Make it availble for document formats other than PDFs like Word Doc etc...
 - Docker Compose for one-line deployment  
