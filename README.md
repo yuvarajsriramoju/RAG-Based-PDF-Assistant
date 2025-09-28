@@ -55,10 +55,10 @@ This makes the project not just a demo, but a **measurable, benchmarked RAG syst
 ```mermaid
 flowchart TD
     subgraph Ingestion["Ingestion Pipeline"]
-        A[PDFs in /data] --> B[Text Extraction: PyPDF]
-        B --> C[Chunking: RecursiveCharacterTextSplitter]
-        C --> D[Embeddings: BGE-small (SentenceTransformers)]
-        D --> E[FAISS Index: vector_store]
+        A[PDFs in /data] --> B[Text Extraction - PyPDF]
+        B --> C[Chunking - RecursiveCharacterTextSplitter]
+        C --> D[Embeddings - BGE-small SentenceTransformers]
+        D --> E[FAISS Index - vector_store]
     end
 
     subgraph QueryFlow["Query Flow"]
@@ -66,12 +66,13 @@ flowchart TD
         Q --> R[FAISS Retrieve Top-K]
         R --> CXT[Build Context with Chunks]
         CXT --> P[Prompt Builder]
-        P --> LLM[(Ollama LLM: Mistral / LLaMA / Phi)]
-        LLM --> ANS[Grounded Answer + Citations]
+        P --> LLM[Ollama LLM - Mistral or LLaMA or Phi]
+        LLM --> ANS[Grounded Answer with Citations]
     end
 
     E -.-> R
     ANS --> UI[Streamlit UI]
+
 
 ---
 
