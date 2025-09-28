@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from ingest import build_index
-from rag import rag_query
+from rag_deploy import rag_query
 
 load_dotenv()
 
